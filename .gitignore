@@ -1,0 +1,21 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore environment variables (if using a .env file)
+.env
+
+# Ignore log files and system files
+*.log
+.DS_Store
+Thumbs.db
+
+# Ignore Render and Vercel build artifacts (if applicable)
+build/
+dist/
